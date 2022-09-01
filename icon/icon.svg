@@ -38,7 +38,7 @@
      inkscape:snap-text-baseline="true"
      inkscape:snap-global="true"
      inkscape:zoom="1.3416246"
-     inkscape:cx="293.6738"
+     inkscape:cx="142.73739"
      inkscape:cy="624.98854"
      inkscape:window-width="1482"
      inkscape:window-height="1013"
@@ -293,65 +293,71 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#ff00ff;stroke-width:1.2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect75735-2"
-       width="38.141438"
-       height="38.141438"
-       x="-124.07072"
-       y="-167.57072"
-       transform="scale(-1)"
-       inkscape:export-filename="C:\Users\Admin\Desktop\icon.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.16268111,0,0,0.205284,73.468011,52.202301)"
-       id="text83049-3"
-       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:-3.23466px;word-spacing:8.43861px;white-space:pre;shape-inside:url(#rect83133-9);fill:#ff00ff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64162948;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\Admin\Desktop\icon.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="123.73047"
-         y="462.12503"
-         id="tspan31516"><tspan
-           style="font-size:112.442px;font-family:Calibri;-inkscape-font-specification:Calibri"
-           id="tspan31514">T</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.19980141,0,0,0.33614624,62.054037,8.6729574)"
-       id="text83049"
-       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:-3.23466px;word-spacing:8.43861px;white-space:pre;shape-inside:url(#rect83133);fill:#ff00ff;fill-opacity:1;stroke:#ff0000;stroke-width:1.92933037;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\Admin\Desktop\icon.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="123.73047"
-         y="462.12503"
-         id="tspan31520"><tspan
-           style="font-size:112.442px;font-family:Calibri;-inkscape-font-specification:Calibri"
-           id="tspan31518">S</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.19980141,0,0,0.33614624,74.445305,8.6729574)"
-       id="text25967"
-       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:-3.23466px;word-spacing:8.43861px;white-space:pre;shape-inside:url(#rect25969);fill:#ff00ff;fill-opacity:1;stroke:#ff0000;stroke-width:1.92933037;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\Admin\Desktop\icon.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="123.73047"
-         y="462.12503"
-         id="tspan31524"><tspan
-           style="font-size:112.442px;font-family:Calibri;-inkscape-font-specification:Calibri"
-           id="tspan31522">US</tspan></tspan></text>
-    <rect
-       style="fill:none;stroke:#ff0000;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect27923"
-       width="39.041439"
-       height="39.041431"
-       x="85.479271"
-       y="128.97929"
-       inkscape:export-filename="C:\Users\Admin\Desktop\icon.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+    <g
+       id="g883"
+       inkscape:export-filename="C:\Users\Admin\Desktop\stus-orthogonal-projection-calculator\icon\icon.png"
+       inkscape:export-xdpi="165.28117"
+       inkscape:export-ydpi="165.28117">
+      <rect
+         style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#ff00ff;stroke-width:1.2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect75735-2"
+         width="38.141438"
+         height="38.141438"
+         x="-124.07072"
+         y="-167.57072"
+         transform="scale(-1)"
+         inkscape:export-filename="C:\Users\Admin\Desktop\icon.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.16268111,0,0,0.205284,73.468011,52.202301)"
+         id="text83049-3"
+         style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:-3.23466px;word-spacing:8.43861px;white-space:pre;shape-inside:url(#rect83133-9);fill:#ff00ff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64162948;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:export-filename="C:\Users\Admin\Desktop\icon.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           x="123.73047"
+           y="462.12503"
+           id="tspan943"><tspan
+             style="font-size:112.442px;font-family:Calibri;-inkscape-font-specification:Calibri"
+             id="tspan941">T</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.19980141,0,0,0.33614624,62.054037,8.6729574)"
+         id="text83049"
+         style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:-3.23466px;word-spacing:8.43861px;white-space:pre;shape-inside:url(#rect83133);fill:#ff00ff;fill-opacity:1;stroke:#ff0000;stroke-width:1.92933037;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:export-filename="C:\Users\Admin\Desktop\icon.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           x="123.73047"
+           y="462.12503"
+           id="tspan947"><tspan
+             style="font-size:112.442px;font-family:Calibri;-inkscape-font-specification:Calibri"
+             id="tspan945">S</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.19980141,0,0,0.33614624,74.445305,8.6729574)"
+         id="text25967"
+         style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:-3.23466px;word-spacing:8.43861px;white-space:pre;shape-inside:url(#rect25969);fill:#ff00ff;fill-opacity:1;stroke:#ff0000;stroke-width:1.92933037;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:export-filename="C:\Users\Admin\Desktop\icon.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           x="123.73047"
+           y="462.12503"
+           id="tspan951"><tspan
+             style="font-size:112.442px;font-family:Calibri;-inkscape-font-specification:Calibri"
+             id="tspan949">US</tspan></tspan></text>
+      <rect
+         style="fill:none;stroke:#ff0000;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect27923"
+         width="39.041439"
+         height="39.041431"
+         x="85.479271"
+         y="128.97929"
+         inkscape:export-filename="C:\Users\Admin\Desktop\icon.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
   </g>
 </svg>
