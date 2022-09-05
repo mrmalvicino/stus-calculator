@@ -7,16 +7,20 @@ init_printing(use_latex="mathjax")
 
 
 def intProd(v,w):
-    a = integrate((v*w), (x,-pi,pi))
-    return a
+    k = integrate((v*w), (x,-pi/2,pi/2))
+    return k
 
 
 # INPUTS
 # ------
 
-f = x**3 # Función a proyectar
-dim_S = int(40) # Dimensión del subespacio
-resolution = 0.05 # Error en el gráfico
+f = x**0 # Función a proyectar
+dim_S = int(21) # Dimensión del subespacio
+f_s = 20 # Sample rate
+a = -np.pi # Inicio del intervalo
+b = np.pi # Final del intervalo
+closedInterval = True # Cerrar intervalo con el mayorante
+
 
 # ORTHOGONAL BASE
 # ---------------
@@ -37,9 +41,9 @@ print('B =', B)
 # PROJECTION
 # ----------
 
-proy = intProd(f,1)/intProd(1,1)
+proy = 0
 
-for a_i in range(0,int((dim_S-1)/2),1):
+for a_i in range(0,int(dim_S),1):
     proy = proy + (intProd(f,B[a_i])/intProd(B[a_i],B[a_i]))*B[a_i]
 
 print('proy_S(f) = ', proy)
@@ -48,7 +52,7 @@ print('proy_S(f) = ', proy)
 # GRAPHS
 # ------
 
-t = np.arange(-np.pi,np.pi,resolution)
+t = np.arange(a,b+int(closedInterval)/f_s,1/f_s)
 x_axis = []
 y_axis = []
 y_axis_f = []
@@ -58,16 +62,9 @@ for t_i in t:
     y_axis.append(proy.subs(x,t_i))
     y_axis_f.append(f.subs(x,t_i))
 
-plt.plot(x_axis,y_axis,"-b")
+plt.plot(x_axis,y_axis,"-y")
 plt.plot(x_axis,y_axis_f,"-r")
 plt.grid
-
-
-
-
-
-
-
 
 
 
