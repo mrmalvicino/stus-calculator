@@ -18,6 +18,10 @@ Graphic calculator that aproximates periodic functions by calculating it's ortho
 
 ## Screenshots
 
+Graph output for square wave projection:
+
+![App Screenshot](https://i19.servimg.com/u/f19/20/17/94/24/figure10.png)
+
 Graph output for f(x)=x^3 projection:
 
 ![App Screenshot](https://i19.servimg.com/u/f19/20/17/94/24/stus-p10.png)
