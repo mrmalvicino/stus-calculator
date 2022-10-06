@@ -6,29 +6,29 @@ Graphic calculator that aproximates periodic functions by calculating it's ortho
 ## Features
 
 - Continuous functions supported.
+- Piecewise functions supported.
 - Trigonometric polynomial orthogonal base supported.
-- Settable subspace dimention and graph resolution.
+- Settable subspace dimention.
 
 ### Under development
 
-- Split functions compatibility.
 - Projections for R^n with generic inernal product.
 - Settable orthogonal base input (for a given vector space).
 - Settable inernal product input (for a given vector space).
 
 ## Screenshots
 
-Graph output for square wave projection:
+Plot of square pulse projection for a 36 dimention base:
 
-![App Screenshot](https://i19.servimg.com/u/f19/20/17/94/24/figure10.png)
+![App Screenshot](https://i19.servimg.com/u/f19/20/17/94/24/dim_s311.png)
 
-Graph output for f(x)=x^3 projection:
+Plot of square pulse projection for a 9 dimention base:
 
-![App Screenshot](https://i19.servimg.com/u/f19/20/17/94/24/stus-p10.png)
+![App Screenshot](https://i19.servimg.com/u/f19/20/17/94/24/dim_s910.png)
 
-Base and trigonometric polynomial output for f(x)=x^3 projection:
+Trigonometric polynomial and square pulse projection for a 21 dimention base:
 
-![App Screenshot](https://i19.servimg.com/u/f19/20/17/94/24/screen12.png)
+![App Screenshot](https://i19.servimg.com/u/f19/20/17/94/24/dim_s210.png)
 
 ## About STUS
 
