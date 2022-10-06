@@ -1,4 +1,3 @@
-import numpy as np
 import math as mt
 from sympy import integrate, cos, sin, pi
 from sympy.abc import x
@@ -14,14 +13,14 @@ def inProd(v,w):
 def genBase(S='Trigonometric polynomials', dim_S=21):
     
     if S == 'Trigonometric polynomials':
-        B = np.array([1])
+        B = [1]
     
         for v_i in range(1, int(mt.ceil(dim_S/2)), 1):
-            B = np.append(B, sin((v_i)*x))
-            B = np.append(B, cos((v_i)*x))
+            B.append(sin((v_i)*x))
+            B.append(cos((v_i)*x))
     
         if dim_S%2 == 0:
-            B = np.append(B, sin(int(dim_S/2)*x))
+            B.append(sin(int(dim_S/2)*x))
             
     return B
 
