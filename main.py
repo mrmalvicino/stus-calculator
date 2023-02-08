@@ -1,14 +1,14 @@
 import sympy as sp
 from sympy import Piecewise, pi
-import stus_functions as fn
+import functions
 
-B = fn.genBase(dim_S=9)
+B = functions.genBase(dim_S=7)
 
 print(f'B = {B}\n')
 
 x = sp.Symbol('x')
 f = Piecewise((0, x<-pi/2), (0, x>pi/2) , (x**0, True))
-proy = fn.genProy(f, B)
+proy = functions.genProy(f, B)
 
 print(f'proy_S(f) = {proy}\n')
 
