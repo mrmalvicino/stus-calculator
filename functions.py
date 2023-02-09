@@ -3,7 +3,7 @@ from sympy import integrate, cos, sin, pi
 from sympy.abc import x
 
 
-def genBase(dim_S):
+def genBasis(dim_S):
     
     """
     Generates an orthogonal basis (B) for the trigonometric polynomials vector space (S) which is a subset of the integrable functions vector space.

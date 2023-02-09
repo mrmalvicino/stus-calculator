@@ -2,7 +2,7 @@ import sympy as sp
 from sympy import Piecewise, pi
 import functions
 
-B = functions.genBase(dim_S=7)
+B = functions.genBasis(dim_S=7)
 
 print(f'B = {B}\n')
 
