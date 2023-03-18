@@ -1,13 +1,21 @@
+from sympy import Piecewise, pi
 import numpy as np
 import sympy as sp
-from sympy import Piecewise, pi
-import functions
+import os
+import sys
+
+root_dir = os.path.dirname(__file__)
+matplotlib_functions_path = os.path.realpath(os.path.join(root_dir, '..', 'matplotlib-functions',))
+sys.path.insert(0, matplotlib_functions_path)
+
+import matplotlib_functions as plt_fx
+import stus_functions as s_fx
 
 
 # GENERATE BASIS:
 
 dim_S = 7 # Dimention of the vector space S. The bigger the dimention is, the better the approximation is, but the slower the process is.
-B = functions.gen_basis(dim_S)
+B = s_fx.gen_basis(dim_S)
 
 print(f'B = {B}\n')
 
@@ -18,7 +26,7 @@ x_start = -pi
 x_final = pi
 x = sp.Symbol('x')
 f = Piecewise((0, x<x_start/2), (0, x>x_final/2) , (x**0, True))
-p = functions.gen_projection(f, B)
+p = s_fx.gen_projection(f, B)
 
 print(f'p_S(f) = {p}\n')
 
@@ -57,4 +65,4 @@ kwargs = {
         'save': False
     }
 
-functions.plot_LR(x_np, (p_np, f_np), **kwargs)
+plt_fx.plot_LR(x_np, (p_np, f_np), **kwargs)
