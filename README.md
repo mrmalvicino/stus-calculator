@@ -1,35 +1,28 @@
 
 # STUS Orthogonal Projection Calculator
 
-Graphic calculator that aproximates periodic functions by calculating it's orthogonal projection using Fourier Series.
+Graphic calculator that aproximates periodic functions by calculating it's orthogonal projection over a trigonometric polynomials vector space.
 
 ## Features
 
 - Continuous functions supported.
 - Piecewise functions supported.
-- Trigonometric polynomial orthogonal base supported.
-- Settable subspace dimention.
-
-### Under development
-
-- Projections for R^n with generic inernal product.
-- Settable orthogonal base input (for a given vector space).
-- Settable inernal product input (for a given vector space).
+- Settable subspace dimension.
 
 ## Screenshots
 
-Plot of square pulse projection for a 36 dimention base:
+![App Screenshot](https://raw.githubusercontent.com/mrmalvicino/stus-orthogonal-projection-calculator/main/images/dim_11.png)
 
-![App Screenshot](https://i19.servimg.com/u/f19/20/17/94/24/dim_s311.png)
+![App Screenshot](https://raw.githubusercontent.com/mrmalvicino/stus-orthogonal-projection-calculator/main/images/dim_50.png)
 
-Plot of square pulse projection for a 9 dimention base:
+## Modules
 
-![App Screenshot](https://i19.servimg.com/u/f19/20/17/94/24/dim_s910.png)
+The following modules must be cloned in the same directory as stus-orthogonal-projection-calculator.git
 
-Trigonometric polynomial and square pulse projection for a 21 dimention base:
+- [https://github.com/mrmalvicino/matplotlib-functions](https://github.com/mrmalvicino/matplotlib-functions)
 
-![App Screenshot](https://i19.servimg.com/u/f19/20/17/94/24/dim_s210.png)
+- [https://github.com/mrmalvicino/python-functions](https://github.com/mrmalvicino/python-functions)
 
 ## About STUS
 
-![Logo](https://i19.servimg.com/u/f19/20/17/94/24/icon11.png)
+![Logo](https://raw.githubusercontent.com/mrmalvicino/stus-orthogonal-projection-calculator/main/images/icon/icon.png)
