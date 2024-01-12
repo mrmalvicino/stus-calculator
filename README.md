@@ -1,28 +1,30 @@
 
 # STUS Orthogonal Projection Calculator
 
-Graphic calculator that aproximates periodic functions by calculating it's orthogonal projection over a trigonometric polynomials vector space.
+&nbsp; [Stus Calculator](https://github.com/mrmalvicino/stus-calculator) is a graphic calculator that aproximates periodic functions by calculating it's orthogonal projection over a trigonometric polynomials vector space.
+
+![](https://raw.githubusercontent.com/mrmalvicino/stus-calculator/main/images/icon/icon.png)
 
 ## Features
 
-- Continuous functions supported.
-- Piecewise functions supported.
-- Settable subspace dimension.
+### Settable subspace dimension
 
-## Screenshots
+&nbsp; The dimension of the vector space can be modified in order to determine the precision of the aproximation.
 
-![App Screenshot](https://raw.githubusercontent.com/mrmalvicino/stus-orthogonal-projection-calculator/main/images/dim_11.png)
+&nbsp; The following plot represents an aproximation over a 11th dimention vector space.
 
-![App Screenshot](https://raw.githubusercontent.com/mrmalvicino/stus-orthogonal-projection-calculator/main/images/dim_50.png)
+![](https://raw.githubusercontent.com/mrmalvicino/stus-calculator/main/images/dim_11.png)
 
-## Modules
+&nbsp; While the following aproximation was made over a 50th dimention vector space.
 
-The following modules must be cloned in the same directory as stus-orthogonal-projection-calculator.git
+![](https://raw.githubusercontent.com/mrmalvicino/stus-calculator/main/images/dim_50.png)
 
-- [https://github.com/mrmalvicino/matplotlib-functions](https://github.com/mrmalvicino/matplotlib-functions)
+## Dependencies
 
-- [https://github.com/mrmalvicino/python-functions](https://github.com/mrmalvicino/python-functions)
+&nbsp; The following repository must be cloned in the same directory as stus-calculator.git.
 
-## About STUS
+- [https://github.com/mrmalvicino/dsp-package](https://github.com/mrmalvicino/dsp-package)
 
-![Logo](https://raw.githubusercontent.com/mrmalvicino/stus-orthogonal-projection-calculator/main/images/icon/icon.png)
+## License
+
+&nbsp; This is an open source project developed under the GNU General Public License. See the [LICENSE](https://github.com/mrmalvicino/stus-calculator/blob/main/LICENSE) file for more details.
